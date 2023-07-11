@@ -1,10 +1,15 @@
+// Deps ↓
 import {useEffect} from "react";
 import {useTelegram} from "./hooks/useTelegram";
-import Header from "./components/Header/Header";
-import './App.css';
 import {Routes, Route} from "react-router-dom";
-import ProductList from "./components/ProductList/ProductList";
+
+// Components ↓
+import Header from "./components/Header/Header";
 import Form from "./components/Form/Form";
+import ProductList from "./components/ProductList/ProductList";
+
+// Styles ↓
+import './App.css';
 
 
 function App() {

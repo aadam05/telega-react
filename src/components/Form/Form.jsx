@@ -1,3 +1,4 @@
+// Styles ↓
 import './Form.css'
 
 import React, {useEffect, useState} from 'react';
@@ -21,7 +22,7 @@ const Form = () => {
         } else {
             tg.MainButton.show();
         }
-    }, [])
+    }, [country, street])
 
     const onChangeCountry = (e) => {
         setCountry(e.target.value)
